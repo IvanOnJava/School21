@@ -6,7 +6,7 @@
 /*   By: cshea <cshea@student.21-school.ru>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/10 01:56:16 by cshea             #+#    #+#             */
-/*   Updated: 2020/11/10 18:07:19 by cshea            ###   ########.fr       */
+/*   Updated: 2020/11/25 18:42:55 by cshea            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,4 +82,7 @@ char				*ft_strstr(const char *str1, const char *str2);
 char				*ft_strrev(char *str);
 int					ft_numbits(long nb);
 char				*ft_strcpy(char *dst, const char *src);
+int					ft_count_words(char const *s, char c);
+int					ft_size_word(char const *s, char c);
+void				*ft_free_mas(char **result, int words);
 #endif
